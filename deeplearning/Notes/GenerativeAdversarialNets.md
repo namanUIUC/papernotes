@@ -26,4 +26,10 @@ The overall idea is to generate a distribution $p_g$ from a user defined distrib
 
 We train $D$ to maximize the probability of assigning the correct label and train $G$ to minimize $\log(1-D(G(z)))$  
 
+
+
+### Understanding the the value function
+
+After theoretical proof, Ian shows that the value function actually determines the the divergence between the two probability distribution given that the discriminator is optimal. 
+
  

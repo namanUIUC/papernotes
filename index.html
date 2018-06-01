@@ -1,13 +1,22 @@
 ---
+layout: default
 ---
 
-<ul class="list pa0">
-  {% for post in site.posts %}
-  <li class="mv2">
-    <a href="{{ site.url }}{{ post.url }}" class="db pv1 link blue hover-mid-gray">
-      <time class="fr silver ttu">{{ post.date | date_to_string }} </time>
-      {{ post.title }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <br>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
+        <hr id="line">
+		<div class="content">
+		{{ post.excerpt }}
+        </div>
+		<br>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

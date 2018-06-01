@@ -1,32 +1,14 @@
-# Scribble
+# Jekyll-Pithy
 
-A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+Jekyll-Pithy is a theme for Jekyll. Here is [my blog](http://wenva.github.io) which use this theme.
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/23830104/6d4665e0-06b7-11e7-8805-57e73c346459.png)
+![image](https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png)
 
-## Get started
+### Usage
+* Clone it.
+* cd Jekyll-Pithy, and Run "jekyll serve"(You must install [jekyll](http://jekyllrb.com/) first)
+* Open web browser and enter "http://127.0.0.1:4000/", you can see the web page like snapshot above.
+* If you want to host you blog on Github Page, you can follow the steps provide by Github.
 
-1. [Fork the repository](https://github.com/muan/scribble/fork)
-
-2. Clone the repository: `git clone https://github.com/username/scribble`
-
-3. Run `bundle install`
-
-4. Run Jekyll: `bundle exec jekyll serve -w`
-
-5. Go to http://localhost:4000 for your site.
-
----
-
-## Make it yours
-
-1. Edit `_config.yml`, adn then rerun `jekyll serve -w`
-
-2. Change `about.md` for blog intro
-
-3. For domain settings see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
-
-## The end
-
-Like it? [Tell me](http://twitter.com/muanchiou).<br/>
-Problem? [Use GitHub Issues](https://github.com/muan/scribble).
+### License
+The code follows MIT License.
